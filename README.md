@@ -58,7 +58,7 @@ Cart Valuation (Functions): A complex function using three tables (COMANDA, DETA
 Supply Chain Analytics (Complex Procedures): A procedure joining five tables (FURNIZOR, APROVIZIONARE, PRODUS, DEPOZIT, CATEGORIE) to generate an acquisition report, implementing custom exceptions if a supplier has no recent activity.
 
 ## Database Triggers for Automation
-Statement-level DML Trigger (Business Hours): * Restricts invoice and order modifications outside of standard business hours.
+Statement-level DML Trigger (Business Hours): Restricts invoice and order modifications outside of standard business hours.
 
 Forbids DML operations on non-working days (weekends/holidays).
 
